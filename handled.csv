@@ -1,156 +1,156 @@
-Year,Title
-2018,towards saving money in using smart contracts
-2019,a large-scale empirical study on control flow identification of smart contracts
-2020,scscan: a svm-based scanning system for vulnerabilities in blockchain smart contracts
-2020,finding ethereum smart contracts security issues by comparing history versions
-2019,smarter smart contract development tools
-2016,making smart contracts smarter
-2019,machine learning model for smart contracts security analysis
-2020,a survey of security vulnerabilities in ethereum smart contracts
-2020,towards automated reentrancy detection for smart contracts based on sequential models
-2019,enabling clone detection for ethereum via smart contract birthmarks
-2021,scstudio: a secure and efficient integrated development environment for smart contracts
-2020,ethereum smart contracts: vulnerabilities and their classifications
-2018,formal verification of smart contracts based on users and blockchain behaviors models
-2020,ra: hunting for re-entrancy attacks in ethereum smart contracts via static analysis
-2019,towards automated generation of bug benchmark for smart contracts
-2018,madmax: surviving out-of-gas conditions in ethereum smart contracts
-2021,empirical evaluation of smart contract testing: what is the best choice?
-2021,smart-graph: graphical representations for smart contract on the ethereum blockchain
-2019,formal verification of blockchain smart contract based on colored petri net models
-2018,s-gram: towards semantic-aware security auditing for ethereum smart contracts
-2020,analysis of blockchain smart contracts: techniques and insights
-2021,static profiling and optimization of ethereum smart contracts using resource analysis
-2021,summary of: a federated society of bots for smart contract testing
-2018,security vulnerabilities in ethereum smart contracts
-2021,ultra-lightweight mutual authentication in the vehicle based on smart contract blockchain: case of mitm attack
-2018,reguard: finding reentrancy bugs in smart contracts
-2021,evaluating countermeasures for verifying the integrity of ethereum smart contract applications
-2019,a survey on security verification of blockchain smart contracts
-2020,smart contract privacy protection using ai in cyber-physical systems: tools  techniques and challenges
-2020,etherolic: a practical security analyzer for smart contracts
-2021,confuzzius: a data dependency-aware hybrid fuzzer for smart contracts
-2019,security smells in smart contracts
-2019,services as enterprise smart contracts in the digital factory
-2020,source code obfuscation for smart contracts
-2021,your smart contracts are not secure: investigating arbitrageurs and oracle manipulators in ethereum
-2020,reentrancy vulnerability identification in ethereum smart contracts
-2021,defectchecker: automated smart contract defect detection by analyzing evm bytecode
-2019,smart contract security: a software lifecycle perspective
-2020,safepay on ethereum: a framework for detecting unfair payments in smart contracts
-2021,self-adaptive security for sla based smart contract
-2020,secure modular smart contract platform for multi-tenant 5g applications
-2021,formal methods for the security analysis of smart contracts
-2020,sfuzz: an efficient adaptive fuzzer for solidity smart contracts
-2021,hunting vulnerable smart contracts via graph embedding based bytecode matching
-2019,\ae{}gis: smart shielding of smart contracts
-2019,soliaudit: smart contract vulnerability assessment based on machine learning and fuzz testing
-2020,verismart: a highly precise safety verifier for ethereum smart contracts
-2019,smartembed: a tool for clone and bug detection in smart contracts through structural code embedding
-2020,a hybrid formal verification system in coq for ensuring the reliability and security of ethereum-based service smart contracts
-2020,aayush: a smart contract-based telesurgery system for healthcare 4.0
-2019,mpro: combining static and symbolic analysis for scalable testing of smart contract
-2020,eosfuzzer: fuzzing eosio smart contracts for vulnerability detection
-2019,manticore: a user-friendly symbolic execution framework for binaries and smart contracts
-2021,targeting the weakest link: social engineering attacks in ethereum smart contracts
-2019,a study of inequality in the ethereum smart contract ecosystem
-2020,machine learning based bug prediction engine for smart contracts
-2021,dynamic vulnerability detection on smart contracts using machine learning
-2021,lightweight extension of an execution environment for safer function calls in solidity/ethereum virtual machine smart contracts
-2020,anomaly detection via blockchained deep learning smart contracts in industry 4.0
-2020,smart contracts vulnerability auditing with multi-semantics
-2021,a literature survey on smart contract testing and analysis for smart contract based blockchain application development
-2021,smart contract-based agricultural food supply chain traceability
-2021,vscl: automating vulnerability detection in smart contracts with deep learning
-2021,deescvhunter: a deep learning-based framework for smart contract vulnerability detection
-2021,aroc: an automatic repair framework for on-chain smart contracts
-2021,analysis of source code duplication in ethreum smart contracts
-2019,a survey of tools for analyzing ethereum smart contracts
-2020,a framework and dataset for bugs in ethereum smart contracts
-2020,securing smart grid communication using ethereum smart contracts
-2017,secured transactions technique based on smart contracts for situational awareness tools
-2020,model-based software design and testing in blockchain smart contracts: a systematic literature review
-2018,smartcheck: static analysis of ethereum smart contracts
-2021,rich specifications for ethereum smart contract verification
-2020,deposafe: demystifying the fake deposit vulnerability in ethereum smart contracts
-2019,exploiting the laws of order in smart contracts
-2018,contractfuzzer: fuzzing smart contracts for vulnerability detection
-2021,hfcontractfuzzer: fuzzing hyperledger fabric smart contracts for vulnerability detection
-2019,adaptive security for smart contracts using high granularity metrics
-2019,slither: a static analysis framework for smart contracts
-2020,harvey: a greybox fuzzer for smart contracts
-2021,sguard: towards fixing vulnerable smart contracts automatically
-2020,smartbugs: a framework to analyze solidity smart contracts
-2021,testing smart contracts: which technique performs best?
-2020,smart contract: attacks and protections
-2020,checking smart contracts with structural code embedding
-2020,artemis: an improved smart contract verification tool for vulnerability detection
-2020,how effective are smart contract analysis tools? evaluating smart contract static analysis tools using bug injection
-2021,smartscan: an approach to detect denial of service vulnerability in ethereum smart contracts
-2019,the treewidth of smart contracts
-2021,making smart contract development more secure and easier
-2020,clairvoyance: cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts
-2021,security challenges and opportunities for smart contracts in internet of things: a survey
-2021,gaschecker: scalable analysis for discovering gas-inefficient smart contracts
-2020,a survey on vulnerability detection tools of smart contract bytecode
-2021,precise dynamic symbolic execution for nonuniform data access in smart contracts
-2021,assessing smart contracts security technical debts
-2019,collateral use of deployment code for smart contracts in ethereum
-2020,when deep learning meets smart contracts
-2020,contractguard: defend ethereum smart contracts with embedded intrusion detection
-2019,finding concurrency exploits on smart contracts
-2019,vultron: catching vulnerable smart contracts once and for all
-2020,research on blockchain smart contracts vulnerability and a code audit tool based on matching rules
-2021,smartwarden: automated intrusion detection system for smart contracts
-2020,ethainter: a smart contract security analyzer for composite vulnerabilities
-2020,two-level stackelberg game for iot computational resource trading mechanism: a smart contract approach
-2021,vulnerability assessment on ethereum based smart contract applications
-2021,solsaviour: a defending framework for deployed defective smart contracts
-2021,parallel governance for decentralized autonomous organizations enabled by blockchain and smart contracts
-2020,using fault injection to assess blockchain systems in presence of faulty smart contracts
-2018,towards analyzing the complexity landscape of solidity based ethereum smart contracts
-2017,online detection of effectively callback free objects with applications to smart contracts
-2021,combining graph neural networks with expert knowledge for smart contract vulnerability detection
-2020,seraph: enabling cross-platform security analysis for evm and wasm smart contracts
-2018,an implement of smart contract based decentralized online crowdsourcing mechanism
-2019,musc: a tool for mutation testing of ethereum smart contract
-2021,contractward: automated vulnerability detection models for ethereum smart contracts
-2019,potential risks of hyperledger fabric smart contracts
-2020,runtime hook on blockchain and smart contract systems
-2019,smart contract defense through bytecode rewriting
-2019,a critical-path-coverage-based vulnerability detection method for smart contracts
-2020,ethor: practical and provably sound static analysis of ethereum smart contracts
-2020,taming callbacks for smart contract modularity
-2022,mutation testing for integer overflow in ethereum smart contracts
-2020,\ae{}gis: shielding vulnerable smart contracts against attacks
-2020,automated generation of test cases for smart contract security analyzers
-2018,a semantic framework for the security analysis of ethereum smart contracts
-2020,smart contract repair
-2020,echidna: effective  usable  and fast fuzzing for smart contracts
-2020,cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts
-2020,protect your smart contract against unfair payment
-2018,smart contracts vulnerabilities: a call for blockchain software engineering?
-2020,testing ethereum smart contracts: a comparison of symbolic analysis and fuzz testing tools
-2020,smartshield: automatic smart contract protection made easy
-2019,neo smart contract for drought-based insurance
-2020,smacs: smart contract access control service
-2018,osiris: hunting for integer bugs in ethereum smart contracts
-2020,summary-based symbolic evaluation for smart contracts
-2019,detecting nondeterministic payment bugs in ethereum smart contracts
-2020,empirical review of automated analysis tools on 47 587 ethereum smart contracts
-2019,smart contract defect detection based on parallel symbolic execution
-2020,madmax: analyzing the out-of-gas world of smart contracts
-2018,analyzing financial smart contracts for blockchain
-2019,evaluating spread of ‘gasless send’ in ethereum smart contracts
-2018,securify: practical security analysis of smart contracts
-2021,verifying security vulnerabilities for blockchain-based smart contracts
-2020,static analysis of integer overflow of smart contracts in ethereum
-2020,verified development and deployment of multiple interacting smart contracts with verisolid
-2020,oracle-supported dynamic exploit generation for smart contracts
-2020,defining smart contract defects on ethereum
-2020,gasfuzzer: fuzzing ethereum smart contract binaries to expose gas-oriented exception security vulnerabilities
-2021,smartgift: learning to generate practical inputs for testing smart contracts
-2019,solanalyser: a framework for analysing and testing smart contracts
-2020,testing smart contracts gets smarter
-2017,scpki: a smart contract-based pki and identity system
-2018,security assurance for smart contract
+Year,Title,Date,Source
+2016,making smart contracts smarter,,Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security
+2017,secured transactions technique based on smart contracts for situational awareness tools,10 May 2018,2017 12th International Conference for Internet Technology and Secured Transactions (ICITST)
+2017,scpki: a smart contract-based pki and identity system,,Proceedings of the ACM Workshop on Blockchain Cryptocurrencies and Contracts
+2017,online detection of effectively callback free objects with applications to smart contracts,,Proc. ACM Program. Lang.
+2018,smartcheck: static analysis of ethereum smart contracts,,Proceedings of the 1st International Workshop on Emerging Trends in Software Engineering for Blockchain
+2018,formal verification of smart contracts based on users and blockchain behaviors models,2 Apr 2018,2018 9th IFIP International Conference on New Technologies Mobility and Security (NTMS)
+2018,contractfuzzer: fuzzing smart contracts for vulnerability detection,,Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering
+2018,an implement of smart contract based decentralized online crowdsourcing mechanism,,Proceedings of the 2018 2nd International Conference on Computer Science and Artificial Intelligence
+2018,madmax: surviving out-of-gas conditions in ethereum smart contracts,,Proc. ACM Program. Lang.
+2018,smart contracts vulnerabilities: a call for blockchain software engineering?,29 Mar 2018,2018 International Workshop on Blockchain Oriented Software Engineering (IWBOSE)
+2018,analyzing financial smart contracts for blockchain,3 Jun 2019,2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)
+2018,towards analyzing the complexity landscape of solidity based ethereum smart contracts,,Proceedings of the 1st International Workshop on Emerging Trends in Software Engineering for Blockchain
+2018,a semantic framework for the security analysis of ethereum smart contracts,,Principles of Security and Trust
+2018,towards saving money in using smart contracts,,Proceedings of the 40th International Conference on Software Engineering: New Ideas and Emerging Results
+2018,osiris: hunting for integer bugs in ethereum smart contracts,,Proceedings of the 34th Annual Computer Security Applications Conference
+2018,security assurance for smart contract,2 Apr 2018,2018 9th IFIP International Conference on New Technologies Mobility and Security (NTMS)
+2018,securify: practical security analysis of smart contracts,,Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security
+2018,s-gram: towards semantic-aware security auditing for ethereum smart contracts,17 Feb 2020,2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)
+2018,security vulnerabilities in ethereum smart contracts,,Proceedings of the 20th International Conference on Information Integration and Web-Based Applications &amp; Services
+2018,reguard: finding reentrancy bugs in smart contracts,,Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings
+2019,slither: a static analysis framework for smart contracts,,Proceedings of the 2nd International Workshop on Emerging Trends in Software Engineering for Blockchain
+2019,formal verification of blockchain smart contract based on colored petri net models,9 Jul 2019,2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)
+2019,\ae{}gis: smart shielding of smart contracts,,Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security
+2019,a survey on security verification of blockchain smart contracts,24 Jun 2019,IEEE Access
+2019,enabling clone detection for ethereum via smart contract birthmarks,,Proceedings of the 27th International Conference on Program Comprehension
+2019,a critical-path-coverage-based vulnerability detection method for smart contracts,21 Oct 2019,IEEE Access
+2019,neo smart contract for drought-based insurance,11 Oct 2019,2019 IEEE Canadian Conference of Electrical and Computer Engineering (CCECE)
+2019,vultron: catching vulnerable smart contracts once and for all,,Proceedings of the 41st International Conference on Software Engineering: New Ideas and Emerging Results
+2019,solanalyser: a framework for analysing and testing smart contracts,2 Jan 2020,2019 26th Asia-Pacific Software Engineering Conference (APSEC)
+2019,towards automated generation of bug benchmark for smart contracts,6 Jun 2019,2019 IEEE International Conference on Software Testing Verification and Validation Workshops (ICSTW)
+2019,machine learning model for smart contracts security analysis,6 Jan 2020,2019 17th International Conference on Privacy Security and Trust (PST)
+2019,finding concurrency exploits on smart contracts,,Proceedings of the 41st International Conference on Software Engineering: Companion Proceedings
+2019,evaluating spread of ‘gasless send’ in ethereum smart contracts,15 Jul 2019,2019 10th IFIP International Conference on New Technologies Mobility and Security (NTMS)
+2019,a survey of tools for analyzing ethereum smart contracts,1 Aug 2019,2019 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPCON)
+2019,mpro: combining static and symbolic analysis for scalable testing of smart contract,10 Feb 2020,2019 IEEE 30th International Symposium on Software Reliability Engineering (ISSRE)
+2019,the treewidth of smart contracts,,Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing
+2019,smart contract defect detection based on parallel symbolic execution,19 Dec 2019,2019 3rd International Conference on Circuits System and Simulation (ICCSS)
+2019,smartembed: a tool for clone and bug detection in smart contracts through structural code embedding,5 Dec 2019,2019 IEEE International Conference on Software Maintenance and Evolution (ICSME)
+2019,a large-scale empirical study on control flow identification of smart contracts,17 Oct 2019,2019 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)
+2019,musc: a tool for mutation testing of ethereum smart contract,,Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering
+2019,collateral use of deployment code for smart contracts in ethereum,15 Jul 2019,2019 10th IFIP International Conference on New Technologies Mobility and Security (NTMS)
+2019,smart contract security: a software lifecycle perspective,23 Oct 2019,IEEE Access
+2019,security smells in smart contracts,7 Oct 2019,2019 IEEE 19th International Conference on Software Quality Reliability and Security Companion (QRS-C)
+2019,services as enterprise smart contracts in the digital factory,29 Aug 2019,2019 IEEE International Conference on Web Services (ICWS)
+2019,manticore: a user-friendly symbolic execution framework for binaries and smart contracts,,Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering
+2019,soliaudit: smart contract vulnerability assessment based on machine learning and fuzz testing,23 Dec 2019,2019 Sixth International Conference on Internet of Things: Systems Management and Security (IOTSMS)
+2019,smart contract defense through bytecode rewriting,2 Jan 2020,2019 IEEE International Conference on Blockchain (Blockchain)
+2019,potential risks of hyperledger fabric smart contracts,14 Mar 2019,2019 IEEE International Workshop on Blockchain Oriented Software Engineering (IWBOSE)
+2019,exploiting the laws of order in smart contracts,,Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis
+2019,smarter smart contract development tools,,Proceedings of the 2nd International Workshop on Emerging Trends in Software Engineering for Blockchain
+2019,adaptive security for smart contracts using high granularity metrics,,Proceedings of the 3rd International Conference on Vision Image and Signal Processing
+2019,detecting nondeterministic payment bugs in ethereum smart contracts,,Proc. ACM Program. Lang.
+2019,a study of inequality in the ethereum smart contract ecosystem,23 Dec 2019,2019 Sixth International Conference on Internet of Things: Systems Management and Security (IOTSMS)
+2020,securing smart grid communication using ethereum smart contracts,27 Jul 2020,2020 International Wireless Communications and Mobile Computing (IWCMC)
+2020,static analysis of integer overflow of smart contracts in ethereum,,Proceedings of the 2020 4th International Conference on Cryptography Security and Privacy
+2020,towards automated reentrancy detection for smart contracts based on sequential models,3 Feb 2020,IEEE Access
+2020,a hybrid formal verification system in coq for ensuring the reliability and security of ethereum-based service smart contracts,3 Feb 2020,IEEE Access
+2020,aayush: a smart contract-based telesurgery system for healthcare 4.0,21 Jul 2020,2020 IEEE International Conference on Communications Workshops (ICC Workshops)
+2020,empirical review of automated analysis tools on 47 587 ethereum smart contracts,,Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering
+2020,taming callbacks for smart contract modularity,,Proc. ACM Program. Lang.
+2020,cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts,,Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering
+2020,finding ethereum smart contracts security issues by comparing history versions,,Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering
+2020,scscan: a svm-based scanning system for vulnerabilities in blockchain smart contracts,9 Feb 2021,2020 IEEE 19th International Conference on Trust Security and Privacy in Computing and Communications (TrustCom)
+2020,how effective are smart contract analysis tools? evaluating smart contract static analysis tools using bug injection,,Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis
+2020,smartbugs: a framework to analyze solidity smart contracts,,Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering
+2020,echidna: effective  usable  and fast fuzzing for smart contracts,,Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis
+2020,anomaly detection via blockchained deep learning smart contracts in industry 4.0,,Neural Computing and Applications
+2020,testing smart contracts gets smarter,31 Dec 2020,2020 10th International Conference on Computer and Knowledge Engineering (ICCKE)
+2020,a survey on vulnerability detection tools of smart contract bytecode,2 Nov 2020,2020 IEEE 3rd International Conference on Information Systems and Computer Aided Education (ICISCAE)
+2020,research on blockchain smart contracts vulnerability and a code audit tool based on matching rules,,Proceedings of the 2020 International Conference on Cyberspace Innovation of Advanced Technologies
+2020,source code obfuscation for smart contracts,1 Mar 2021,2020 27th Asia-Pacific Software Engineering Conference (APSEC)
+2020,protect your smart contract against unfair payment,12 Nov 2020,2020 International Symposium on Reliable Distributed Systems (SRDS)
+2020,artemis: an improved smart contract verification tool for vulnerability detection,26 Jan 2021,2020 7th International Conference on Dependable Systems and Their Applications (DSA)
+2020,contractguard: defend ethereum smart contracts with embedded intrusion detection,8 Apr 2020,IEEE Transactions on Services Computing
+2020,machine learning based bug prediction engine for smart contracts,9 Nov 2020,2020 Turkish National Software Engineering Symposium (UYMS)
+2020,seraph: enabling cross-platform security analysis for evm and wasm smart contracts,,Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Companion Proceedings
+2020,madmax: analyzing the out-of-gas world of smart contracts,,Commun. ACM
+2020,smartshield: automatic smart contract protection made easy,2 Apr 2020,2020 IEEE 27th International Conference on Software Analysis Evolution and Reengineering (SANER)
+2020,smart contract: attacks and protections,12 Feb 2020,IEEE Access
+2020,checking smart contracts with structural code embedding,,IEEE Transactions on Software Engineering
+2020,smart contract repair,,ACM Trans. Softw. Eng. Methodol.
+2020,sfuzz: an efficient adaptive fuzzer for solidity smart contracts,,Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering
+2020,secure modular smart contract platform for multi-tenant 5g applications,21 Aug 2020,IEEE Access
+2020,testing ethereum smart contracts: a comparison of symbolic analysis and fuzz testing tools,,Conference of the South African Institute of Computer Scientists and Information Technologists 2020
+2020,safepay on ethereum: a framework for detecting unfair payments in smart contracts,23 Feb 2021,2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)
+2020,deposafe: demystifying the fake deposit vulnerability in ethereum smart contracts,19 Mar 2021,2020 25th International Conference on Engineering of Complex Computer Systems (ICECCS)
+2020,automated generation of test cases for smart contract security analyzers,1 Dec 2020,IEEE Access
+2020,using fault injection to assess blockchain systems in presence of faulty smart contracts,27 Oct 2020,IEEE Access
+2020,ra: hunting for re-entrancy attacks in ethereum smart contracts via static analysis,11 Dec 2020,2020 IEEE International Conference on Blockchain (Blockchain)
+2020,model-based software design and testing in blockchain smart contracts: a systematic literature review,17 Sep 2020,IEEE Access
+2020,eosfuzzer: fuzzing eosio smart contracts for vulnerability detection,,12th Asia-Pacific Symposium on Internetware
+2020,etherolic: a practical security analyzer for smart contracts,,Proceedings of the 35th Annual ACM Symposium on Applied Computing
+2020,oracle-supported dynamic exploit generation for smart contracts,,IEEE Transactions on Dependable and Secure Computing
+2020,defining smart contract defects on ethereum,,IEEE Transactions on Software Engineering
+2020,reentrancy vulnerability identification in ethereum smart contracts,30 Mar 2020,2020 IEEE International Workshop on Blockchain Oriented Software Engineering (IWBOSE)
+2020,analysis of blockchain smart contracts: techniques and insights,21 Oct 2020,2020 IEEE Secure Development (SecDev)
+2020,smart contracts vulnerability auditing with multi-semantics,22 Sep 2020,2020 IEEE 44th Annual Computers Software and Applications Conference (COMPSAC)
+2020,runtime hook on blockchain and smart contract systems,,Proceedings of the 8th International Workshop on Security in Blockchain and Cloud Computing
+2020,clairvoyance: cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts,,Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Companion Proceedings
+2020,summary-based symbolic evaluation for smart contracts,,Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering
+2020,\ae{}gis: shielding vulnerable smart contracts against attacks,,Proceedings of the 15th ACM Asia Conference on Computer and Communications Security
+2020,a framework and dataset for bugs in ethereum smart contracts,2 Nov 2020,2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)
+2020,gasfuzzer: fuzzing ethereum smart contract binaries to expose gas-oriented exception security vulnerabilities,4 Jun 2020,IEEE Access
+2020,smart contract privacy protection using ai in cyber-physical systems: tools  techniques and challenges,7 Feb 2020,IEEE Access
+2020,verismart: a highly precise safety verifier for ethereum smart contracts,30 Jul 2020,2020 IEEE Symposium on Security and Privacy (SP)
+2020,when deep learning meets smart contracts,,Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering
+2020,ethainter: a smart contract security analyzer for composite vulnerabilities,,Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation
+2020,smacs: smart contract access control service,31 Jul 2020,2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
+2020,verified development and deployment of multiple interacting smart contracts with verisolid,17 Aug 2020,2020 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)
+2020,ethereum smart contracts: vulnerabilities and their classifications,24 May 2021,2020 IEEE International Conference on Big Data (Big Data)
+2020,harvey: a greybox fuzzer for smart contracts,,Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+2020,ethor: practical and provably sound static analysis of ethereum smart contracts,,Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security
+2020,a survey of security vulnerabilities in ethereum smart contracts,,Proceedings of the 30th Annual International Conference on Computer Science and Software Engineering
+2020,two-level stackelberg game for iot computational resource trading mechanism: a smart contract approach,,IEEE Transactions on Services Computing
+2021,smart-graph: graphical representations for smart contract on the ethereum blockchain,11 May 2021,2021 IEEE International Conference on Software Analysis Evolution and Reengineering (SANER)
+2021,precise dynamic symbolic execution for nonuniform data access in smart contracts,,IEEE Transactions on Computers
+2021,smartscan: an approach to detect denial of service vulnerability in ethereum smart contracts,8 Jul 2021,2021 IEEE/ACM 4th International Workshop on Emerging Trends in Software Engineering for Blockchain (WETSEB)
+2021,gaschecker: scalable analysis for discovering gas-inefficient smart contracts,20 Sep 2021,IEEE Transactions on Emerging Topics in Computing
+2021,evaluating countermeasures for verifying the integrity of ethereum smart contract applications,29 Jun 2021,IEEE Access
+2021,summary of: a federated society of bots for smart contract testing,24 May 2021,2021 14th IEEE Conference on Software Testing Verification and Validation (ICST)
+2021,combining graph neural networks with expert knowledge for smart contract vulnerability detection,,IEEE Transactions on Knowledge and Data Engineering
+2021,making smart contract development more secure and easier,,Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+2021,scstudio: a secure and efficient integrated development environment for smart contracts,,Proceedings of the 30th ACM SIGSOFT International Symposium on Software Testing and Analysis
+2021,vulnerability assessment on ethereum based smart contract applications,30 Jul 2021,2021 IEEE International Conference on Automatic Control & Intelligent Systems (I2CACIS)
+2021,aroc: an automatic repair framework for on-chain smart contracts,,IEEE Transactions on Software Engineering
+2021,smartwarden: automated intrusion detection system for smart contracts,25 Oct 2021,2021 3rd Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS)
+2021,vscl: automating vulnerability detection in smart contracts with deep learning,24 Jun 2021,2021 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)
+2021,security challenges and opportunities for smart contracts in internet of things: a survey,26 Jul 2021,IEEE Internet of Things Journal
+2021,deescvhunter: a deep learning-based framework for smart contract vulnerability detection,21 Sep 2021,2021 International Joint Conference on Neural Networks (IJCNN)
+2021,lightweight extension of an execution environment for safer function calls in solidity/ethereum virtual machine smart contracts,11 May 2021,2021 IEEE International Conference on Software Analysis Evolution and Reengineering (SANER)
+2021,defectchecker: automated smart contract defect detection by analyzing evm bytecode,,IEEE Transactions on Software Engineering
+2021,confuzzius: a data dependency-aware hybrid fuzzer for smart contracts,4 Nov 2021,2021 IEEE European Symposium on Security and Privacy (EuroS&P)
+2021,ultra-lightweight mutual authentication in the vehicle based on smart contract blockchain: case of mitm attack,15 Jul 2021,IEEE Sensors Journal
+2021,hfcontractfuzzer: fuzzing hyperledger fabric smart contracts for vulnerability detection,,Evaluation and Assessment in Software Engineering
+2021,rich specifications for ethereum smart contract verification,,Proc. ACM Program. Lang.
+2021,analysis of source code duplication in ethreum smart contracts,11 May 2021,2021 IEEE International Conference on Software Analysis Evolution and Reengineering (SANER)
+2021,your smart contracts are not secure: investigating arbitrageurs and oracle manipulators in ethereum,,Proceedings of the 3rd Workshop on Cyber-Security Arms Race
+2021,dynamic vulnerability detection on smart contracts using machine learning,,Evaluation and Assessment in Software Engineering
+2021,contractward: automated vulnerability detection models for ethereum smart contracts,7 Jul 2021,IEEE Transactions on Network Science and Engineering
+2021,hunting vulnerable smart contracts via graph embedding based bytecode matching,4 Feb 2021,IEEE Transactions on Information Forensics and Security
+2021,assessing smart contracts security technical debts,25 Jun 2021,2021 IEEE/ACM International Conference on Technical Debt (TechDebt)
+2021,testing smart contracts: which technique performs best?,,Proceedings of the 15th ACM / IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)
+2021,parallel governance for decentralized autonomous organizations enabled by blockchain and smart contracts,22 Sep 2021,2021 IEEE 1st International Conference on Digital Twins and Parallel Intelligence (DTPI)
+2021,self-adaptive security for sla based smart contract,27 Oct 2021,2021 IEEE 29th International Requirements Engineering Conference Workshops (REW)
+2021,smart contract-based agricultural food supply chain traceability,15 Jan 2021,IEEE Access
+2021,targeting the weakest link: social engineering attacks in ethereum smart contracts,,Proceedings of the 2021 ACM Asia Conference on Computer and Communications Security
+2021,verifying security vulnerabilities for blockchain-based smart contracts,6 Dec 2021,2021 XI Brazilian Symposium on Computing Systems Engineering (SBESC)
+2021,formal methods for the security analysis of smart contracts,29 Nov 2021,2021 Formal Methods in Computer Aided Design (FMCAD)
+2021,sguard: towards fixing vulnerable smart contracts automatically,26 Aug 2021,2021 IEEE Symposium on Security and Privacy (SP)
+2021,smartgift: learning to generate practical inputs for testing smart contracts,24 Nov 2021,2021 IEEE International Conference on Software Maintenance and Evolution (ICSME)
+2021,a literature survey on smart contract testing and analysis for smart contract based blockchain application development,12 Nov 2021,2021 2nd International Conference on Smart Electronics and Communication (ICOSEC)
+2021,static profiling and optimization of ethereum smart contracts using resource analysis,15 Feb 2021,IEEE Access
+2021,solsaviour: a defending framework for deployed defective smart contracts,,Annual Computer Security Applications Conference
+2021,empirical evaluation of smart contract testing: what is the best choice?,,Proceedings of the 30th ACM SIGSOFT International Symposium on Software Testing and Analysis
+2022,mutation testing for integer overflow in ethereum smart contracts,17 Aug 2021,Tsinghua Science and Technology

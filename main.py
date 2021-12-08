@@ -12,9 +12,11 @@ SPRINGER = BASE_ORIGIN_DIR + "springer/"
 
 
 class Paper:
-    def __init__(self, title, year):
+    def __init__(self, title, year, date, source):
         self.title = title
         self.year = int(year)
+        self.date = date
+        self.source = source
 
     def __hash__(self):
         return hash(self.title)
@@ -30,7 +32,7 @@ parser = BibTexParser()
 result = set()
 
 
-def check_paper_relate(title, abstract, year):
+def check_paper_relate(title, abstract, year, date, source):
     if "smart contract" in title or "smart contracts" in title:
         if (
                 "bug" in title or
@@ -41,7 +43,7 @@ def check_paper_relate(title, abstract, year):
                 "vulnerabilities" in title or
                 "detect" in title or ("security" in title and "analysis" in title)
         ):
-            result.add(Paper(title, year))
+            result.add(Paper(title, year, date, source))
         else:
             if ("bug" in abstract or
                     "bugs" in abstract or
@@ -51,10 +53,10 @@ def check_paper_relate(title, abstract, year):
                     "vulnerabilities" in abstract or
                     "detect" in abstract
             ):
-                result.add(Paper(title, year))
+                result.add(Paper(title, year, date, source))
             else:
                 if "ethereum" in title and "vulnerabilities" in title:
-                    result.add(Paper(title, year))
+                    result.add(Paper(title, year, date, source))
                 else:
                     if ("analysis" in title or "analysis" in abstract) and (
                             "security" in title or "security" in abstract):
@@ -83,6 +85,7 @@ def read_bib_to_list(file_path):
     return bp.load(bib_file, parser=parser)
 
 
+@loguru.logger.catch()
 def acm():
     loguru.logger.info("acm")
     for root, dirs, files in os.walk(ACM):
@@ -93,7 +96,14 @@ def acm():
                 title = paper["title"].lower()
                 abstract = paper["abstract"].lower()
                 year = paper['year']
-                check_paper_relate(title, abstract, year)
+                if 'booktitle' in paper.keys():
+                    source = paper['booktitle'].replace(",", "")
+                else:
+                    if 'journal' in paper.keys():
+                        source = paper['journal'].replace(",", "")
+                    else:
+                        source = ""
+                check_paper_relate(title, abstract, year, "", source)
 
 
 @loguru.logger.catch()
@@ -107,7 +117,9 @@ def ieee():
                 title = row["Document Title"].lower()
                 abstract = row["Abstract"].lower()
                 year = row['Publication Year']
-                check_paper_relate(title, abstract, year)
+                date = row['Date Added To Xplore']
+                source = row['Publication Title'].replace(",", "")
+                check_paper_relate(title, abstract, year, date, source)
 
 
 def springer():
@@ -120,23 +132,29 @@ def springer():
                 title = row["Item Title"].lower()
                 abstract = ""
                 year = row['Publication Year']
-                check_paper_relate(title, abstract, year)
+                source = str(row['Publication Title']).replace(",", "")
+                check_paper_relate(title, abstract, year, "", source)
 
 
+@loguru.logger.catch()
 def convert_result():
     loguru.logger.info("最终收集到的文献数量：" + str(len(result)))
     csv = open("./handled.csv", mode="w")
-    csv.write("Year,Title" + "\n")
+    csv.write("Year,Title,Date,Source" + "\n")
     for paper in result:
         year = str(paper.year)
         title = paper.title.replace(",", " ")
-        csv.write(year + "," + title + "\n")
+        date = str(paper.date)
+        source = str(paper.source)
+        csv.write(year + "," + title + "," + date + "," + source + "\n")
     csv.close()
     loguru.logger.info("写入文件成功")
     csv = pandas.read_csv("./handled.csv")
     for select_year in range(2016, 2023, 1):
         papers = csv[csv.Year == select_year]
         loguru.logger.info(str(select_year) + ": " + str(len(papers)))
+    csv.sort_values(inplace=True, by="Year")
+    csv.to_csv("./handled.csv", index=False)
 
 
 def main():
