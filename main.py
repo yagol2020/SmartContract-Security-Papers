@@ -9,6 +9,8 @@ BASE_ORIGIN_DIR = "./origin/"
 ACM = BASE_ORIGIN_DIR + "acm/"
 IEEE = BASE_ORIGIN_DIR + "ieee/"
 SPRINGER = BASE_ORIGIN_DIR + "springer/"
+parser = BibTexParser()
+result = set()
 
 
 class Paper:
@@ -26,10 +28,6 @@ class Paper:
             return hash(self.title) == hash(other.title)
         else:
             return False
-
-
-parser = BibTexParser()
-result = set()
 
 
 def check_paper_relate(title, abstract, year, date, source):
@@ -162,7 +160,6 @@ def main():
     ieee()
     springer()
     convert_result()
-    pass
 
 
 if __name__ == '__main__':
