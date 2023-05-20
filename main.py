@@ -11,6 +11,8 @@ IEEE = BASE_ORIGIN_DIR + "ieee/"
 SPRINGER = BASE_ORIGIN_DIR + "springer/"
 parser = BibTexParser()
 result = set()
+ENABLE_2023 = True
+FILE_NAME = "2023" if ENABLE_2023 else "2022"
 
 
 class Paper:
@@ -89,9 +91,14 @@ def acm():
     for root, dirs, files in os.walk(ACM):
         for file_name in files:
             bib_file_path = os.path.join(root, file_name)
+            if not ENABLE_2023:  # 跳过2023年的文献
+                if "2023" in bib_file_path:
+                    continue
             bib_list = read_bib_to_list(bib_file_path)
             for paper in bib_list.entries:
                 title = paper["title"].lower()
+                if "abstract" not in paper.keys():
+                    continue
                 abstract = paper["abstract"].lower()
                 year = paper['year']
                 if 'booktitle' in paper.keys():
@@ -110,6 +117,9 @@ def ieee():
     for root, dirs, files in os.walk(IEEE):
         for file_name in files:
             csv_path = os.path.join(root, file_name)
+            if not ENABLE_2023:  # 跳过2023年的文献
+                if "2023" in csv_path:
+                    continue
             csv_data = pandas.read_csv(csv_path)
             for index, row in csv_data.iterrows():
                 title = row["Document Title"].lower()
@@ -137,7 +147,7 @@ def springer():
 @loguru.logger.catch()
 def convert_result():
     loguru.logger.info("最终收集到的文献数量：" + str(len(result)))
-    csv = open("./handled.csv", mode="w")
+    csv = open(f"./handled-new-{FILE_NAME}.csv", mode="w")
     csv.write("Year,Title,Date,Source" + "\n")
     for paper in result:
         year = str(paper.year)
@@ -147,20 +157,17 @@ def convert_result():
         csv.write(year + "," + title + "," + date + "," + source + "\n")
     csv.close()
     loguru.logger.info("写入文件成功")
-    csv = pandas.read_csv("./handled.csv")
-    for select_year in range(2016, 2023, 1):
+    csv = pandas.read_csv(f"./handled-new-{FILE_NAME}.csv")
+    for select_year in range(2016, 2024, 1):
         papers = csv[csv.Year == select_year]
         loguru.logger.info(str(select_year) + ": " + str(len(papers)))
     csv.sort_values(inplace=True, by="Year")
-    csv.to_csv("./handled.csv", index=False)
+    csv.to_csv(f"./handled-new-{FILE_NAME}.csv", index=False)
+    print(f"{FILE_NAME}")
 
 
-def main():
+if __name__ == '__main__':
     acm()
     ieee()
     springer()
     convert_result()
-
-
-if __name__ == '__main__':
-    main()
